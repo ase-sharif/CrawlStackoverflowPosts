@@ -64,9 +64,6 @@ class StackoverflowDumpToDBService:
             attributes['ViewCount'] = attributes.get('ViewCount', 0)
             attributes['LastEditorDisplayName'] = attributes.get('LastEditorDisplayName')
             attributes['Title'] = attributes.get('Title')
-            if attributes['Title']:
-                attributes['Title'] = attributes['Title'].replace('python', '')
-                attributes['Title'] = attributes['Title'].replace('Python', '')
             attributes['Tags'] = attributes.get('Tags')
             attributes['OwnerUserId'] = attributes.get('OwnerUserId')
             attributes['AnswerCount'] = attributes.get('AnswerCount', 0)
