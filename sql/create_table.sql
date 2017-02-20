@@ -22,3 +22,6 @@ CREATE TABLE python_posts_all(
   ParentId INT(11) NULL DEFAULT NULL,
   PRIMARY KEY (id)
 )
+COLLATE='utf8mb4_general_ci'
+ENGINE=Innodb
+AUTO_INCREMENT=25829558;
